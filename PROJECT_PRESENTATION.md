@@ -103,7 +103,7 @@ Array passed in:
 
 should return - "The star named Luminastra has no orbiting planets that could harbour life."
 
-So, how can you use the passsed in data to help you write your function? Well, one of the most crucial factors in determining whether a planet can harbour life is whether that planet can hold liquid water. Water exists in liquid state when 0 < temperature on planet < 100 degrees celsius (not inclusive of those values). You are going to assume that if a given planet has a temperature between these values, it has the potential to harbour life.
+So, how can you use the passsed in data to help you write your function? Well, one of the most crucial factors in determining whether a planet can harbour life is whether that planet can hold liquid water. Water exists in liquid state when 0 < temperature on planet < 100 degrees celsius (not inclusive of those values). For the purpose of simplicity, we have assumed all planets have atmospheric pressures comparable to Earth. Therefore, you are going to assume that if a given planet has a temperature between these values, it has the potential to harbour life.
 
 The following equation tells you how the temperature of a planet can be worked out if you know the temperature of its star, its distance from its star and the radius of its star:
 
